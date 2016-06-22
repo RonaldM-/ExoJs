@@ -1,0 +1,65 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exo_1_JS</title>
+</head>
+<body>
+	<script>
+	var nom;
+	var prenom;
+	var ville;
+	var ages;
+	var sexe;
+	var origine;
+	var sexes;
+
+		// nom="Doe"
+		// prenom="John"
+		// ville="New-York"
+
+		nom = prompt('Entrez votre nom :')
+		prenom = prompt('Entrez votre prénom :')
+		var age = prompt("Quel est votre age")
+		ville = prompt('Entrez votre ville :')
+		sexe = prompt('quel est votre sexe:')
+		origine = prompt("Quelle est votre origine")
+
+	// Boucle pour L'age
+	if (age>=18)
+	{
+		ages =("vous êtes majeur");
+	}
+	else (age<18)
+	{
+		ages =("vous êtes mineur");
+	}
+	
+
+	// boucle pour demander le sexe
+
+	switch(sexe){
+		case sexe='homme':
+			sexes = ("homme")
+		break
+
+		case sexe='garçon':
+			sexes = ("homme")
+		break
+
+		case sexe='femme':
+			sexes = ("femme")
+		break
+
+		case sexe='fille':
+			sexes = ("femme")
+		break
+
+		case sexe='sans':
+			sexes = ("sans")
+		break
+	}
+alert("Vous vous appelez "+nom+" "+prenom+" et vous habitez à"+" "+ville+" "+ages+" "+sexes);
+
+	</script>
+</body>
+</html>
