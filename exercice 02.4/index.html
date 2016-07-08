@@ -6,7 +6,13 @@
 </head>
 <body>
   <form>
-    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" />
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="2" id="nom" onkeyup="key()" />
   </form>
+  <script>
+  function key(){
+  	var valeur = document.getElementById('nom').value;
+  	alert(valeur);
+  }
+  </script>
 </body>
 </html>

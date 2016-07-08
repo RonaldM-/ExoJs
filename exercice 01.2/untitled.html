@@ -17,6 +17,10 @@
 		// prenom="John"
 		// ville="New-York"
 
+// var t=(age<18)? "mineur":"majeur"; une manière de court-circuité un if ?=>c'est le if le sinon :
+
+// var majeur=(age<18)
+
 		nom = prompt('Entrez votre nom :')
 		prenom = prompt('Entrez votre prénom :')
 		var age = prompt("Quel est votre age")
@@ -25,12 +29,11 @@
 		origine = prompt("Quelle est votre origine")
 
 	// Boucle pour L'age
-	if (age>=18)
-	{
+	if (age>=18){
 		ages =("vous êtes majeur");
 	}
-	else (age<18)
-	{
+
+	else (age<18){
 		ages =("vous êtes mineur");
 	}
 	
@@ -45,6 +48,13 @@
 		case sexe='garçon':
 			sexes = ("homme")
 		break
+
+
+			// Autre possibilité.
+		// case sexe='garçon':
+		// case sexe='homme':
+		// 	sexes = ("homme")
+		// break
 
 		case sexe='femme':
 			sexes = ("femme")
